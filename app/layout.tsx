@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://main.d1example.amplifyapp.com"),
   title: "Putta Shankar Prasad Y N — Builder Portfolio",
   description: "I build practical software across product engineering, applied AI, developer tools, Linux systems and application security.",
   openGraph: {
