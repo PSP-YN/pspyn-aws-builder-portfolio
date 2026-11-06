@@ -63,7 +63,7 @@ This repository currently builds as a static frontend. It does not require a dat
 
 ## Submission checklist
 
-- [ ] Create and verify the Cloudflare Pages deployment.
+- [x] Create and verify the Cloudflare Pages deployment (Cloudflare reports the production build and deploy stages as successful).
 - [ ] Test navigation, project interactions, keyboard access and mobile layout on the live site.
 - [ ] Add the verified live URL and repository URL to the challenge portal.
 - [ ] Confirm that the challenge accepts a Cloudflare-hosted portfolio; do not describe it as AWS-hosted.
