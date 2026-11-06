@@ -2,6 +2,8 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://pspyn-aws-builder-portfolio.pages.dev"),
+  alternates: { canonical: "/" },
   title: "Putta Shankar Prasad Y N | Software & Systems Portfolio",
   description:
     "Computer Science and Engineering undergraduate at VVCE, Mysuru. Selected work across product engineering, applied AI, Linux systems, developer tools and application security.",
@@ -13,6 +15,7 @@ export const metadata: Metadata = {
       "Selected projects, engineering experiments, recognition and the systems behind the work.",
     type: "website",
     locale: "en_IN",
+    url: "https://pspyn-aws-builder-portfolio.pages.dev",
   },
   robots: { index: true, follow: true },
 };
