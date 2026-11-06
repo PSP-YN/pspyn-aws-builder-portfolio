@@ -38,7 +38,7 @@ The project is configured for **static export** and can be hosted on Cloudflare 
 5. Set the build output directory to `out`.
 6. Deploy and verify the generated `.pages.dev` URL.
 
-The GitHub integration must be authorized in Cloudflare before the repository can be selected. A Cloudflare Pages project has **not** been confirmed as created yet; add the live URL here only after a successful deployment.
+The GitHub integration must be authorized in Cloudflare before the repository can be selected. The Cloudflare Pages project has been created and linked to this repository. The first production deployment is still pending; publish the live URL only after a successful build.
 
 ### Hosting scope
 
