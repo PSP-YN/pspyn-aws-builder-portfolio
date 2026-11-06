@@ -38,7 +38,7 @@ The project is configured for **static export** and can be hosted on Cloudflare 
 5. Set the build output directory to `out`.
 6. Deploy and verify the generated `.pages.dev` URL.
 
-The GitHub integration must be authorized in Cloudflare before the repository can be selected. The Cloudflare Pages project has been created and linked to this repository. The first production deployment is still pending; publish the live URL only after a successful build.
+The GitHub integration must be authorized in Cloudflare before the repository can be selected. The Cloudflare Pages project is linked to this repository and its first production deployment completed successfully. Live site: https://pspyn-aws-builder-portfolio.pages.dev.
 
 ### Hosting scope
 
