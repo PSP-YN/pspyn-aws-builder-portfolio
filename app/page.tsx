@@ -65,7 +65,8 @@ export default function Home() {
   const [menu,setMenu] = useState(false);
   const activeProject = projects.find(p=>p.name===active) ?? featured[0];
   const filtered = useMemo(()=>projects.filter(p=>(filter==="All"||p.category===filter) && (p.name+" "+p.description+" "+p.category).toLowerCase().includes(query.toLowerCase())),[filter,query]);
-  return <a className="skip-link" href="#main-content">Skip to content</a>
+  return <>
+    <a className="skip-link" href="#main-content">Skip to content</a>
   <main id="main-content">
     <header className="topbar"><a href="#home" className="wordmark"><span className="mark">PSP<span>.</span></span><span className="wordmark-label">PUTTA SHANKAR PRASAD Y N</span></a>
       <button className="mobile-menu" onClick={()=>setMenu(!menu)} aria-label="Toggle navigation" aria-expanded={menu}>{menu?<X/>:<Menu/>}</button>
@@ -107,5 +108,6 @@ export default function Home() {
 
     <section className="contact-section" id="contact"><div className="section-kicker">07 / CONTACT</div><h2>Let’s build<br/><em>something useful.</em></h2><p>I’m open to conversations about software, applied AI, product ideas, internships and collaboration.</p><div className="contact-links"><a href="mailto:psppspyn13@gmail.com"><Mail size={16}/> Email <ArrowUpRight size={14}/></a><a href="https://linkedin.com/in/pspyn" target="_blank" rel="noreferrer"><Linkedin size={16}/> LinkedIn <ArrowUpRight size={14}/></a><a href="https://github.com/PSP-YN" target="_blank" rel="noreferrer"><Github size={16}/> GitHub <ArrowUpRight size={14}/></a></div></section>
     <footer><span>© 2026 Putta Shankar Prasad Y N</span><span>Made in Mysuru, India · Independent portfolio</span><a href="#home">BACK TO TOP ↑</a></footer>
-  </main>;
+  </main>
+  </>;
 }
